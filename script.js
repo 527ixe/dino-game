@@ -100,8 +100,8 @@ document.addEventListener('keydown', (event) => {
       if (direction !== 'left') direction = 'right';
       break;
   }
-});}
 });
+;
 
 // Start game loop
 generateFood();
