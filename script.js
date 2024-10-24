@@ -101,8 +101,7 @@ document.addEventListener('keydown', (event) => {
       break;
   }
 });
-;
 
 // Start game loop
 generateFood();
-let gameLoop = setInterval(update, 100); // Update every 100ms
+let gameLoop = setInterval(update, 70); // Update every 70ms
