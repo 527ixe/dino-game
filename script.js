@@ -95,6 +95,18 @@ document.addEventListener('keydown', (event) => {
     case 'ArrowRight':
       if (direction !== 'left') direction = 'right';
       break;
+      case 'W':
+      if (direction !== 'down') direction = 'up';
+      break;
+    case 'S':
+      if (direction !== 'up') direction = 'down';
+      break;
+    case 'A':
+      if (direction !== 'right') direction = 'left';
+      break;
+    case 'D':
+      if (direction !== 'left') direction = 'right';
+      break;
   }
 });
 

@@ -1,6 +1,15 @@
 body {
   margin: 0;
   background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Make the body take full viewport height */
+}
+
+.game-container {
+  /* Optional: Add some padding around the canvas */
+  padding: 20px;
 }
 
 canvas {
