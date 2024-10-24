@@ -84,30 +84,23 @@ function gameOver() {
 document.addEventListener('keydown', (event) => {
   switch (event.key) {
     case 'ArrowUp':
+    case 'w':
       if (direction !== 'down') direction = 'up';
       break;
     case 'ArrowDown':
+    case 's':
       if (direction !== 'up') direction = 'down';
       break;
     case 'ArrowLeft':
+    case 'a':
       if (direction !== 'right') direction = 'left';
       break;
     case 'ArrowRight':
-      if (direction !== 'left') direction = 'right';
-      break;
-      case 'W':
-      if (direction !== 'down') direction = 'up';
-      break;
-    case 'S':
-      if (direction !== 'up') direction = 'down';
-      break;
-    case 'A':
-      if (direction !== 'right') direction = 'left';
-      break;
-    case 'D':
+    case 'd':
       if (direction !== 'left') direction = 'right';
       break;
   }
+});}
 });
 
 // Start game loop
